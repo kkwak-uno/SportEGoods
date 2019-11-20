@@ -1,12 +1,22 @@
 {% extends "shop/base.html" %}
 {% load static %}
 
+
 {% block title %}
   Your shopping cart
 {% endblock %}
 
 {% block content %}
-  <h1>Your shopping cart</h1>
+<style>
+body {
+  background-image: url({% static "images/grass.jpg" %});
+}
+</style>
+      <img src="{% static "images/logo.png" %}" alt="logo"/>
+      <div style="float: right"><input type="text" placeholder="Search.."><button type="submit">Submit</button><button type="button">
+        Login</button><br><div class="right"><A href="" style="float: right; color:#fffa06;">New User?</A></div></div>
+  <center>
+    <h1>Your shopping cart</h1>
   <table class="cart">
     <thead>
       <tr>
@@ -37,7 +47,7 @@
                     {% csrf_token %}
                 </form>
             </td>
-            <td><a href="{% url "cart:cart_remove" product.id %}">Remove</a></td>
+            <td><a href="{% url "cart:cart_remove" product.id %} " style="color:#fffa06;">Remove</a></td>
 
             <td class="num">${{ item.price }}</td>
             <td class="num">${{ item.total_price }}</td>
@@ -53,7 +63,8 @@
   </table>
   <p class="text-right">
     <a href="{% url "shop:product_list" %}" class="button
-    light">Continue shopping</a>
-    <a href="{% url "orders:order_create" %}" class="button">Checkout</a>
+    light" style="color:#fffa06;">Continue Shopping</a>&emsp;
+    <a href="{% url "orders:order_create" %}" class="button" style="color:#fffa06;">Checkout</a>
   </p>
+  </center>
 {% endblock %}
