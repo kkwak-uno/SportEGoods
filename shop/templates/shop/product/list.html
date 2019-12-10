@@ -29,21 +29,24 @@ body {
 </table>
 </center>
   </div>
+    <table align="center" cellpadding="25">
   <div id="main" class="product-list">
-    <h1>{% if category %}{{ category.name }}{% else %}Products
-    {% endif %}</h1>
+    <h1><center>{% if category %}{{ category.name }}{% else %}Products
+    {% endif %}</center></h1>
     {% for product in products %}
-      <div class="item">
+      <th>
+        <div class="item">
         <a href="{{ product.get_absolute_url }}" >
           <img src="{% if product.image %}{{ product.image.url }}
-
-          {%else %}{% static "img/no_image.png" %}{% endif %}">
+          {%else %}{% static "img/no_image.png" %}{% endif %}" width="100" height="100" ><br>
         </a>
         <a href="{{ product.get_absolute_url }}" style="color:#fffa06;">{{ product.name }}</a>
         <br>
         ${{ product.price }}
       </div>
+        </th>
     {% endfor %}
   </div>
     </font>
+    </table>
 {% endblock %}

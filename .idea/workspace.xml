@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf24f78a-e854-4cef-a11f-479b81a27a22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1200px-Baseball_crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1407858226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1407858226_TwQOXRg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1554230609-best-baseball-gear-6-1554230594.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/38c1a340-a567-462a-882b-491879c19953_1.0560db92c4f253a9ab9b2e65f5d6bc36.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/44073-02-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/G_62097_RainbowKickShieldShinGuards.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/created.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +53,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ScpGOHViW3kjlhH7zeH156Iux5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -120,7 +131,11 @@
       <workItem from="1573084850826" duration="667000" />
       <workItem from="1574225325498" duration="3600000" />
       <workItem from="1574289959086" duration="2066000" />
-      <workItem from="1574295257564" duration="1034000" />
+      <workItem from="1574295257564" duration="1655000" />
+      <workItem from="1574298543784" duration="528000" />
+      <workItem from="1574331866686" duration="639000" />
+      <workItem from="1574724282418" duration="2084000" />
+      <workItem from="1575999165173" duration="4730000" />
     </task>
     <servers />
   </component>
@@ -139,5 +154,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

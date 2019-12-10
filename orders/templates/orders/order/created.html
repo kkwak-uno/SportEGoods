@@ -8,9 +8,12 @@
 
 {% block content %}
 <style>body {
-    background-color: black;
+    background-image: url("/static/images/grass.jpg");
 }
 </style>
+          <img src="/static/images/logo.png" alt="logo"/>
+      <div style="float: right"><input type="text" placeholder="Search.."><button type="submit">Submit</button><button type="button">
+        Login</button><br><div class="right"><A href="" style="float: right; color:#fffa06;">New User?</A></div></div>
   <h1>Thank you</h1>
   <p>Your order has been successfully completed. Your order number is
   <strong>{{ order.id }}</strong>.</p>

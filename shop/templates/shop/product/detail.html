@@ -15,18 +15,18 @@ body {
       <div style="float: right"><input type="text" placeholder="Search.."><button type="submit">Submit</button><button type="button">
         Login</button><br><div class="right"><A href="" style="float: right; color:#fffa06;">New User?</A></div></div>
   <div class="product-detail">
-    <img src="{% if product.image %}{{ product.image.url }}{% else %}
-    {% static "img/no_image.png" %}{% endif %}">
     <font color="white"><h1>{{ product.name }}</h1>
-    <h2><a href="{{ product.category.get_absolute_url }}" style="color:#fffa06;">
-
-        {{product.category }}</a></h2>
-    <p class="price">${{ product.price }}</p>
+    <div style="float: left">
+    <img src="{% if product.image %}{{ product.image.url }}{% else %}
+    {% static "img/no_image.png" %}{% endif %}" width="300" height="300">
+    </div>
+  <div align="center"><br>
+          {{ product.description|linebreaks }}
+      <h2><p class="price">${{ product.price }}</p></h2>
     <form action="{% url "cart:cart_add" product.id %}" method="post" style="color:#fffa06;">
         {{ cart_product_form }}
         {% csrf_token %}
         <input type="submit" value="Add to cart">
     </form>
-        {{ product.description|linebreaks }}
   </div>
 {% endblock %}</font>
