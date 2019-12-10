@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf24f78a-e854-4cef-a11f-479b81a27a22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1200px-Baseball_crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1407858226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1407858226_TwQOXRg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/1554230609-best-baseball-gear-6-1554230594.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/38c1a340-a567-462a-882b-491879c19953_1.0560db92c4f253a9ab9b2e65f5d6bc36.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/44073-02-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/2019/12/10/G_62097_RainbowKickShieldShinGuards.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/created.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +123,7 @@
       <workItem from="1574331866686" duration="639000" />
       <workItem from="1574724282418" duration="2084000" />
       <workItem from="1575999165173" duration="4730000" />
+      <workItem from="1576006155183" duration="445000" />
     </task>
     <servers />
   </component>
